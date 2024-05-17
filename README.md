@@ -1,4 +1,4 @@
-# coordinatetransformation-app
+Geoconvert- coordinate Transformation-App
 Coordinate transformation is a critical process in geospatial sciences and geographic information systems (GIS), allowing data to be converted between different coordinate systems. This ensures compatibility and accuracy when integrating data from various sources. A coordinate transformation app or tool facilitates this process. 
 Certainly! Here's an explanation of the code, including what it does and how it was created:
 
@@ -34,7 +34,7 @@ This defines a class `CoordinateTransformationApp` that inherits from `QWidget`,
  3. UI Setup Method
 ```python
 def initUI(self):
-    self.setWindowTitle('Coordinate Transformation App')
+    self.setWindowTitle('Geoconvert-Coordinate Transformation App')
     self.setGeometry(100, 100, 400, 200)
 
     layout = QVBoxLayout()
